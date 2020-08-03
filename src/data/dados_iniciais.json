@@ -202,7 +202,7 @@
     },
     {
       "titulo": "Git",
-      "cor": "",
+      "cor": "#4f1e1b",
       "link_extra": {
         "text": "Curso de Git para iniciantes"
       },
