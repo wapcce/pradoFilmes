@@ -23,12 +23,9 @@ body {
 a {
   color: inherit;
 }
-<<<<<<< HEAD
 
 #root {
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
 }
-=======
->>>>>>> origin/master
