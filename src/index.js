@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-<<<<<<< HEAD
 import Home from './pages/Home/home';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -20,13 +19,5 @@ ReactDOM.render(
       <Route component={paginaErro} />
     </Switch>
   </BrowserRouter>,
-=======
-import App from './App';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
->>>>>>> origin/master
   document.getElementById('root')
 );
