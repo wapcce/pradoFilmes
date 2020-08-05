@@ -202,11 +202,7 @@
     },
     {
       "titulo": "Git",
-<<<<<<< HEAD
-      "cor": "",
-=======
       "cor": "#4f1e1b",
->>>>>>> origin/master
       "link_extra": {
         "text": "Curso de Git para iniciantes"
       },
