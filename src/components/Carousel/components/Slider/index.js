@@ -13,7 +13,9 @@ const Container = styled.ul`
     bottom: 0;
     margin: auto;
     width: 30px;
-    height: 30px;
+    height: auto;
+
+    background-color: #111111;
     transform: initial;
     &:before {
       font-size: 30px;
@@ -22,9 +24,42 @@ const Container = styled.ul`
 
   .slick-prev {
     left: 0;
+    border-bottom-left-radius: 10vh;
+    border-top-left-radius: 10vh;
+    opacity: 0.2;
   }
   .slick-next {
-    right: 16px;
+    right: 0;
+    border-top-right-radius: 10vh;
+    border-bottom-right-radius: 10vh;
+    opacity: 0.2;
+  }
+
+  .slick-prev:hover {
+    opacity: 1;
+  }
+
+  .slick-next:hover {
+    opacity: 1;
+  }
+  @media (max-width: 800px) {
+    padding: 0;
+    margin: 0;
+    .slick-prev,
+    .slick-next {
+      z-index: 50;
+      top: 0;
+      bottom: 0;
+      opacity: 0;
+      background-color: transparent;
+      margin: auto;
+      width: 30px;
+      height: 30px;
+      transform: initial;
+      &:before {
+        font-size: 30px;
+      }
+    }
   }
 `;
 
@@ -43,11 +78,12 @@ const Slider = ({ children }) => (
     <SlickSlider
       {...{
         dots: false,
-        infinite: false,
+        infinite: true,
         speed: 300,
         centerMode: false,
         variableWidth: true,
         adaptiveHeight: true,
+        touchMove: true,
       }}
     >
       {children}

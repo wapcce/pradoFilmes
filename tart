@@ -1,0 +1,23 @@
+*   [33m6823259[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Merge remote-tracking branch 'origin/master' into master
+[31m|[m[32m\[m  
+[31m|[m * [33m4cf3942[m Feito as alterações no merge teve problemas no git
+* [32m|[m [33mcb3564e[m Conflitos
+* [32m|[m [33m5dacd89[m Revert "Feito as alterações no merge teve problemas no git"
+* [32m|[m [33m83fb090[m Alterado componets Carousel
+* [32m|[m [33m3dc1bb1[m Realizado alterações de conflito de local e remoto   package.json e package-lock.json app não subia
+* [32m|[m [33m4f864c6[m Problema resolvido não subia a aplicação problemas nos arquivos package-lock.json package.json e dados_iniciais.json
+* [32m|[m [33m4bff8d6[m Feito as alterações no merge teve problemas no git
+[32m|[m[32m/[m  
+*   [33m6121188[m Merge remote-tracking branch 'origin/master' into master
+[33m|[m[34m\[m  
+* [34m|[m [33m49b8e40[m Revert "teste"
+* [34m|[m [33m3426294[m Adicionado caracteristica SPA(Single Page Application) rotas com react-router-dom (BrowserRouter, Switch, Route)
+* [34m|[m [33m371f0c1[m teste
+* [34m|[m [33m868f7db[m teste git
+* [34m|[m [33m022cbc5[m Parte inicial do projeto Prado films
+ [34m/[m  
+[34m|[m * [33m98cf24e[m[33m ([m[1;31morigin/dependabot/npm_and_yarn/websocket-extensions-0.1.4[m[33m)[m Bump websocket-extensions from 0.1.3 to 0.1.4
+[34m|[m[34m/[m  
+[34m|[m * [33mf9ab682[m[33m ([m[1;31morigin/dependabot/npm_and_yarn/elliptic-6.5.3[m[33m, [m[1;32mdependabot/npm_and_yarn/elliptic-6.5.3[m[33m)[m Bump elliptic from 6.5.2 to 6.5.3
+[34m|[m[34m/[m  
+* [33m76e1674[m Parte inicial do projeto Prado films
