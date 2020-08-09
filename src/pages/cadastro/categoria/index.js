@@ -20,11 +20,13 @@ function CadastroCategoria() {
     });
   }
 
-  function handleChange(infosDoEvento) {
-    const { getAttribute, value } = infosDoEvento.target;
+  function handleChange(key, infosDoEvento) {
+    const { value } = infosDoEvento.target;
+    //console.log(infosDoEvento.target.value);
     console.log(infosDoEvento.target.value);
-    console.log(infosDoEvento.target.getAttribute('name'));
-    setValue(getAttribute('name'), value);
+    //console.log(infosDoEvento.target.getAttribute('name'));
+    //setValue(getAttribute('name'), value);
+    setValue(key, value);
   }
   return (
     <TemplateBase>
